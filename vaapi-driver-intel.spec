@@ -11,7 +11,7 @@ Group:		Video
 License:	GPLv2+
 URL:		http://cgit.freedesktop.org/vaapi/intel-driver/
 Source:		http://cgit.freedesktop.org/vaapi/intel-driver/snapshot/%{oname}-%{version}.zip
-BuildRequires:	libva-devel
+BuildRequires:	libva-devel = > 1.0.15
 Provides:	%{oname} = %{version}-%{release}
 
 %description
