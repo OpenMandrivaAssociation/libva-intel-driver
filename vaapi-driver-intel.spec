@@ -12,7 +12,7 @@ License:	GPLv2+
 URL:		http://cgit.freedesktop.org/vaapi/intel-driver/
 Source:		http://cgit.freedesktop.org/vaapi/intel-driver/snapshot/%{oname}-%{version}.zip
 BuildRequires:	libva-devel
-Provides:	%oname
+Provides:	%{oname} = %{version}-%{release}
 
 %description
 VDPAU driver backend for VA API, a video acceleration API.
