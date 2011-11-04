@@ -6,7 +6,7 @@
 Summary:	VA-API driver for VDPAU interface
 Name:		%{name}
 Version:	%{version}
-Release:	1
+Release:	2
 Group:		Video
 License:	GPLv2+
 URL:		http://cgit.freedesktop.org/vaapi/intel-driver/
