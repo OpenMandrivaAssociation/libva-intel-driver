@@ -3,7 +3,7 @@
 %define version	1.0.15
 %define rel	1
 
-Summary:	VA-API driver for VDPAU interface
+Summary:	Is the VA-API implementation for Intel G45 chipsets
 Name:		%{name}
 Version:	%{version}
 Release:	2
@@ -15,7 +15,9 @@ BuildRequires:	libva-devel => 1.0.15
 Provides:	%{oname} = %{version}-%{release}
 
 %description
-VDPAU driver backend for VA API, a video acceleration API.
+libva-driver-intel is the VA-API implementation for Intel G45 chipsets
+and Intel HD Graphics for Intel Core processor family.
+
 
 %prep
 %setup -q -n %oname-%version
