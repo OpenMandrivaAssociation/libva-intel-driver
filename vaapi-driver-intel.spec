@@ -1,6 +1,6 @@
 %define name	vaapi-driver-intel
 %define oname	intel-driver
-%define version	1.0.17
+%define version	1.0.18
 
 Summary:	Is the VA-API implementation for Intel G45 chipsets
 Name:		%{name}
