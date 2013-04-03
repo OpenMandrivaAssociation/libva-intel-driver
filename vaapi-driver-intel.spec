@@ -2,13 +2,12 @@
 
 Summary:	Is the VA-API implementation for Intel G45 chipsets
 Name:		vaapi-driver-intel
-Version:	1.0.18
+Version:	1.0.20
 Release:	1
 Group:		Video
 License:	GPLv2+
 URL:		http://cgit.freedesktop.org/vaapi/intel-driver/
 Source0:	http://cgit.freedesktop.org/vaapi/intel-driver/snapshot/%{oname}-%{version}.zip
-Patch1:		intel-driver-automake-1.13.patch
 BuildRequires:	libva-devel => 1.0.15
 Provides:	%{oname} = %{version}-%{release}
 Obsoletes:	vaapi-driver-i965
@@ -20,7 +19,6 @@ and Intel HD Graphics for Intel Core processor family.
 
 %prep
 %setup -q -n %oname-%version
-%apply_patches
 
 %build
 autoreconf -v --install
