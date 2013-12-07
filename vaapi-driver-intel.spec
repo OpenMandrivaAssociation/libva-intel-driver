@@ -3,7 +3,7 @@
 Summary:	Is the VA-API implementation for Intel G45 chipsets
 Name:		vaapi-driver-intel
 Version:	1.0.20
-Release:	3
+Release:	4
 Group:		Video
 License:	GPLv2+
 URL:		http://cgit.freedesktop.org/vaapi/intel-driver/
