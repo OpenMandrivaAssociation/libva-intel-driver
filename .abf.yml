@@ -1,4 +1,5 @@
 removed_sources:
   intel-driver-1.0.20.zip: e6cc0b61d781e3e1ce3b7822afeb41f4815f7c6d
-sources:
   intel-driver-1.3.0.zip: 1c58b7dee640de9ac310ce49009a12b7b216b3c3
+sources:
+  intel-driver-1.3.2.zip: 835874c3ae840e9222f3ed014dc8d97747ab821c
