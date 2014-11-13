@@ -8,7 +8,7 @@ Group:		Video
 License:	GPLv2+
 Url:		http://cgit.freedesktop.org/vaapi/intel-driver/
 Source0:	http://www.freedesktop.org/software/vaapi/releases/%{name}/%{name}-%{version}.tar.bz2
-BuildRequires:	pkgconfig(libva) >= 1.2.0
+BuildRequires:	pkgconfig(libva)
 Obsoletes:	vaapi-driver-i965 < 1.0.15
 %rename		vaapi-driver-intel
 
