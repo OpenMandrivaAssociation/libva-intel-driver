@@ -23,7 +23,7 @@ and Intel HD Graphics for Intel Core processor family.
 #--------------------------------------------------------------------------
 
 %prep
-%setup -q -n %{oname}-%{version}
+%setup -q
 
 %build
 %configure
