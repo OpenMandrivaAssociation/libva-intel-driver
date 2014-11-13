@@ -1,18 +1,19 @@
 %define oname intel-driver
 
-Summary:	Is the VA-API implementation for Intel G45 chipsets
-Name:		vaapi-driver-intel
-Version:	1.3.2
-Release:	3
+Summary:	VA-API implementation for Intel chipsets
+Name:		libva-intel-driver
+Version:	1.4.1
+Release:	1
 Group:		Video
 License:	GPLv2+
 Url:		http://cgit.freedesktop.org/vaapi/intel-driver/
-Source0:	http://cgit.freedesktop.org/vaapi/intel-driver/snapshot/%{oname}-%{version}.zip
-BuildRequires:	pkgconfig(libva) >= 0.35
+Source0:	http://www.freedesktop.org/software/vaapi/releases/%{name}/%{name}-%{version}.tar.bz2
+BuildRequires:	pkgconfig(libva) >= 1.2.0
 Obsoletes:	vaapi-driver-i965 < 1.0.15
+%rename		vaapi-driver-intel
 
 %description
-libva-driver-intel is the VA-API implementation for Intel G45 chipsets
+libva-driver-intel is the VA-API implementation for Intel chipsets
 and Intel HD Graphics for Intel Core processor family.
 
 %files
@@ -25,8 +26,7 @@ and Intel HD Graphics for Intel Core processor family.
 %setup -q -n %{oname}-%{version}
 
 %build
-autoreconf -v --install
-%configure2_5x
+%configure
 %make
 
 %install
