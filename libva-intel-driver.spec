@@ -2,7 +2,7 @@
 
 Summary:	VA-API implementation for Intel chipsets
 Name:		libva-intel-driver
-Version:	1.6.0
+Version:	1.6.2
 Release:	1
 Group:		Video
 License:	GPLv2+
@@ -33,4 +33,3 @@ and Intel HD Graphics for Intel Core processor family.
 %makeinstall_std
 
 rm -f %{buildroot}%{_libdir}/dri/*.la
-
