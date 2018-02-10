@@ -1,6 +1,6 @@
 Summary:	VA-API implementation for Intel chipsets
 Name:		libva-intel-driver
-Version:	1.8.0
+Version:	1.8.3
 Release:	1
 Group:		Video
 License:	GPLv2+
