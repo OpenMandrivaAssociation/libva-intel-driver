@@ -7,6 +7,8 @@ License:	GPLv2+
 Url:		http://cgit.freedesktop.org/vaapi/intel-driver/
 Source0:	https://github.com/01org/intel-vaapi-driver/releases/download/%{version}/intel-vaapi-driver-%{version}.tar.bz2
 BuildRequires:	pkgconfig(libva) >= 1.1.0
+BuildRequires:  pkgconfig(libdrm)
+BuildRequires:  pkgconfig(libdrm_intel)
 Obsoletes:	vaapi-driver-i965 < 1.0.15
 %rename		vaapi-driver-intel
 
