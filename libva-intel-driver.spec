@@ -9,6 +9,7 @@ Source0:	https://github.com/01org/intel-vaapi-driver/releases/download/%{version
 BuildRequires:	pkgconfig(libva) >= 1.1.0
 BuildRequires:  pkgconfig(libdrm)
 BuildRequires:  pkgconfig(libdrm_intel)
+BuildRequires:  pkgconfig(x11)
 Obsoletes:	vaapi-driver-i965 < 1.0.15
 %rename		vaapi-driver-intel
 
