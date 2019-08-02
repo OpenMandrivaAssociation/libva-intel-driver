@@ -1,7 +1,9 @@
+%global optflags %{optflags} -O3
+
 Summary:	VA-API implementation for Intel chipsets
 Name:		libva-intel-driver
 Version:	2.3.0
-Release:	1
+Release:	2
 Group:		Video
 License:	GPLv2+
 Url:		http://cgit.freedesktop.org/vaapi/intel-driver/
@@ -23,14 +25,14 @@ and Intel HD Graphics for Intel Core processor family.
 #--------------------------------------------------------------------------
 
 %prep
-%setup -qn intel-vaapi-driver-%{version}
+%autosetup -n intel-vaapi-driver-%{version} -p1
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 rm -f %{buildroot}%{_libdir}/dri/*.la
 rm -rf %{buildroot}%{_datadir}/
