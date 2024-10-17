@@ -6,7 +6,7 @@ Version:	2.4.1
 Release:	2
 Group:		Video
 License:	GPLv2+
-Url:		http://cgit.freedesktop.org/vaapi/intel-driver/
+Url:		https://cgit.freedesktop.org/vaapi/intel-driver/
 Source0:	https://github.com/01org/intel-vaapi-driver/releases/download/%{version}/intel-vaapi-driver-%{version}.tar.bz2
 ExclusiveArch:	%{ix86} %{x86_64}
 BuildRequires:	pkgconfig(libva) >= 1.1.0
